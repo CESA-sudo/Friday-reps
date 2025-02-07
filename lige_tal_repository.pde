@@ -1,2 +1,2 @@
 float number;
-number =random(1,100);
+number =random(1,101);

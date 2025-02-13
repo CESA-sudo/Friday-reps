@@ -1,4 +1,4 @@
-String month= "July";
+/*String month= "November";
 int days=0;
 
 switch (month) {
@@ -51,4 +51,4 @@ default :
   days = 28;
   println ("There are 28 days in Febuary" );
   break;
-}
+}*/

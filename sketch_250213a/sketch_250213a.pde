@@ -5,50 +5,41 @@ switch (month) {
 
 case "January" :
   days = 31;
-  println ("There are 31 days in January");
-  break;
+    break;
 case "March ":
   days = 31;
-  println (" There are 31 days in March");
-  break;
+    break;
 case "April" :
   days = 30;
-  println ("There are 30 days in April");
-  break;
+   break;
 case "May" :
   days = 31;
-  println ("There are 31 days in May");
-  break;
+   break;
 case "June" :
   days = 30;
-  println ("There are 30 days in June");
-  break;
+   break;
 case "July" :
   days = 31;
-  println ("There are 31 days in July");
-  break;
+   break;
 case "August" :
   days = 31;
-  println ("There are 31 days in August");
-  break;
+   break;
 case "September" :
   days = 30;
-  println ("There are 30 days in September");
-  break;
+   break;
 case "October" :
   days = 31;
-  println ("There are 31 days in October");
-  break;
+    break;
 case "November" :
   days = 30;
-  println ("There are 30 days in November");
-  break;
+   break;
 case "December" :
   days = 31;
-  println ("There are 31 days in December");
-  break;
+    break;
 default :
   days = 28;
-  println ("There are 28 days in Febuary" );
-  break;
-}*/
+    break;
+  
+  }
+  
+  println ("There are "+ days+" days in "+month);*/

@@ -6,6 +6,9 @@ import java.util.Scanner;
 
 public class Cafe {
     private ArrayList <String> cofeeMenu;
+    public Cafe() {// make a constructor to initalise the declared arraylist
+        this.cofeeMenu = new ArrayList<>();
+    }
 
     public ArrayList<String> getCofeeMenu() {
     return cofeeMenu;
@@ -14,7 +17,7 @@ public class Cafe {
 
     public void loadMenudata(){
        try {
-           File file = new File("cofees.txt");
+           File file = new File("resources/cofees.txt");
            Scanner scan = new Scanner(file);
            while(scan.hasNextLine()){
                cofeeMenu.add(scan.nextLine());
